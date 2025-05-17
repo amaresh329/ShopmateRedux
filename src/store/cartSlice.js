@@ -8,7 +8,8 @@ const cartSlice=createSlice({
     },
     reducers:{
         add(state,action){
-
+            cartList:[],
+             total:0  
         },
         remove(){
 
